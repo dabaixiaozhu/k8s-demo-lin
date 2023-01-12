@@ -10,7 +10,7 @@ public class HelloController {
     @GetMapping("/http")
     public String hello() {
         // 使用http访问 provider 的 hello 接口
-        String result = HttpUtil.get("http-provider/hello");
+        String result = HttpUtil.get("http://http-provider/hello");
         return "从provider中接收到：" + result;
     }
 }
