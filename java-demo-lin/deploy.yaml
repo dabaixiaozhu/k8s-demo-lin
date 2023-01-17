@@ -1,0 +1,37 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: lin-deploy
+spec:
+  replicas: REPLICAS
+  selector:
+    matchLabels:
+      app: lin-pod
+  template:
+    metadata:
+      labels:
+        app: lin-pod
+    spec:
+      imagePullSecrets:
+      - name: SECRET_NAME
+      containers:
+      - image: IMAGE_NAME
+        name: java-lin-container
+
+---
+
+apiVersion: v1
+kind: Service
+metadata:
+  name: lin-service
+spec: 
+  type: NodePort
+  ports:
+  - name: p1
+    port: 80
+    protocol: TCP
+    targetPort: 8080
+    nodePort: 30009
+  selector:
+    app: lin-pod
+    
