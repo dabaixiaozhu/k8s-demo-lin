@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bb1af2c1-1f42-4776-8044-fb458fb49eea" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../http-consumer/src/main/java/com/lin/web/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../http-consumer/src/main/java/com/lin/web/HelloController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../http-consumer/target/http-consumer-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../http-consumer/target/http-consumer-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../http-consumer/target/http-consumer-1.0-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/../http-consumer/target/http-consumer-1.0-SNAPSHOT.jar.original" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
